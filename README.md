@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @daway46
-- 👀 I’m interested in content creation
-- 🌱 I’m currently learning how to learn and take smart notes
-- 💞️ I’m looking to collaborate on people who like to create content 
+- 👀 I’m interested in Cyber Security
+- 🌱 I’m currently learning CISSP material
+- 💞️ I’m looking to collaborate on people who like to write articles on CISSP and DevSecOps
 - 📫 How to reach me - drop me a line
 
 <!---
