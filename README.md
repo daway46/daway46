@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @daway46
-- 👀 I’m interested in Cyber Security
-- 🌱 I’m currently learning CISSP material
-- 💞️ I’m looking to collaborate on people who like to write articles on CISSP and DevSecOps
+- 👀 I create Cyber Security content creation articles, sketches and films
+- 🌱 I’m CISSP certified
+- 💞️ I’m looking to collaborate on people who like to collaborate with me
 - 📫 How to reach me - drop me a line
 
 <!---
