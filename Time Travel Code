@@ -1,0 +1,8 @@
+```dataview
+LIST WITHOUT ID
+    link(file.path, file.name)
+FROM "Journal/Daily"
+WHERE dateformat(date(file.name, "dd-MM-yyyy"), "MM dd") = dateformat(date(this.file.name, "dd-MM-yyyy"), "MM dd")
+  AND file.name != this.file.name
+SORT file.name ASC
+```
