@@ -1,0 +1,19 @@
+//to allow unsupported file upload on wordpress
+//Add below code at the end under <function.php>
+
+//font
+function add_custom_upload_mimes($mimes) {
+    // Allow font types
+    $mimes['ttf'] = 'application/x-font-ttf';
+    $mimes['otf'] = 'application/x-font-otf';
+    $mimes['woff'] = 'application/font-woff';
+    $mimes['woff2'] = 'application/font-woff2';
+    return $mimes;
+}
+add_filter('upload_mimes', 'add_custom_upload_mimes');
+
+***************************************************
+//Add below code just above above /* That's all, stop editing! Happy publishing. */
+define ('ALLOW_UNFILTERED_UPLOADS', true);
+
+source: https://www.youtube.com/watch?v=76ojw1rxkC8
