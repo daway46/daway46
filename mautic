@@ -1,11 +1,11 @@
-# CRON JOB FOR SEGMENT and CAMPAIGN
 # Edit your crontab:  crontab -e
 
-# 1. Update segments (every 15 min)
-0,15,30,45 * * * * php /var/www/mautic/bin/console mautic:segments:update --no-interaction
+# 1. Update segments — 11:00 PM 
+0 23 * * * php /var/www/mautic/bin/console mautic:segments:update --no-interaction
 
-# 2. Enroll contacts into campaigns (every 15 min, offset by 5)
-5,20,35,50 * * * * php /var/www/mautic/bin/console mautic:campaigns:update --no-interaction
+# 2. Enrol contacts into campaigns — 11:05 PM 
+5 23 * * * php /var/www/mautic/bin/console mautic:campaigns:update --no-interaction
 
-# 3. Trigger campaign actions/emails (every 15 min, offset by 10)
-10,25,40,55 * * * * php /var/www/mautic/bin/console mautic:campaigns:trigger --no-interaction
+# 3. Trigger campaign actions/emails — 11:10 PM 
+10 23 * * * php /var/www/mautic/bin/console mautic:campaigns:trigger --no-interaction
+
